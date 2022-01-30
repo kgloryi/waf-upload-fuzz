@@ -13,6 +13,8 @@ def mian():
         Put version=> 1.0 -_-
 
         python put.py --url 文件上传地址 --crawler 1
+        
+        #本工具会将fuzz成功信息保存在/cache/ip.txt文件里！
         ''')
         exit(1)
 
