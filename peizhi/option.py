@@ -5,10 +5,7 @@ class Option:
         self.shuju = shuju
 
     def mokuai(self):
-        if(len(self.shuju) == 3):
-            return self.File()
-        else: 
-            return self.papage()
+        return self.papage()
 
     def papage(self):
         url = funcs.URL(self.shuju)

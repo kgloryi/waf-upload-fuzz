@@ -13,7 +13,6 @@ def mian():
         Put version=> 1.0 -_-
 
         python put.py --url 文件上传地址 --crawler 1
-        python put.py --file 请求报文文件
         ''')
         exit(1)
 
